@@ -94,7 +94,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 0px;
   color: #212741;
 }
@@ -1763,4 +1763,8 @@ body {
   .testimonials .item {
     padding: 50px;
   }
+.index-header{
+  margin-top: 40px;
+}
+
 }

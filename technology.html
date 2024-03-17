@@ -32,8 +32,8 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="assets/css/photo-gallery.css">
-   
+    <link rel="stylesheet" href="assets/css/photo-gallery.css" />
+
     <!--
 
 TemplateMo 574 Mexant
@@ -57,17 +57,24 @@ https://templatemo.com/tm-574-mexant
               <!-- ***** Logo End ***** -->
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
-                <li class="scroll-to-section"><a href="index.html">Home</a></li>
-                <li class="scroll-to-section"><a href="main-features.html">Main Features</a></li>
-                <li class="scroll-to-section"><a href="technology.html">Technology</a></li>
-                <li class="scroll-to-section"><a href="about-us.html">About Us</a></li>
-
+                <li class="scroll-to-section">
+                  <a href="index.html" class="active">Home</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="main-features.html">Main Features</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="technology.html">Technology</a>
+                </li>
+                <!--<li class="scroll-to-section"><a href="about-us.html">About Us</a></li>-->
                 <li class="has-sub">
                   <a href="javascript:void(0)">Pages</a>
                   <ul class="sub-menu">
-                    <li><a href="about-us.html">About Us</a></li>
+                    <!--<li><a href="about-us.html">About Us</a></li>-->
                     <li><a href="main-features.html">Main Features</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <!--<li><a href="contact-us.html">Contact Us</a></li>-->
+                    <!-- Contribution Page Link -->
+                    <li><a href="our-contribution.html">Contribution</a></li>
                   </ul>
                 </li>
                 <li class="scroll-to-section">
@@ -126,54 +133,143 @@ https://templatemo.com/tm-574-mexant
       <div class="container">
         <div class="row">
           <div class="querySelector">
-            
             <div class="service-item">
               <div class="service-item-content">
-                <img src="assets/images/GodotLarge.png" alt="Godot Game Engine", class = "godot-icon" />
-                <div class ="service-item-text">
+                <img
+                  src="assets/images/GodotLarge.png"
+                  alt="Godot Game Engine"
+                  ,
+                  class="godot-icon"
+                />
+                <div class="service-item-text">
                   <h4>Godot Game Engine</h4>
-                  <p>Our game proudly uses the free, open source game engine Godot. Godot is a free game engine that uses GDScript and C#. </p>
-                  <p>Godot is capable of 2D and 3D visuals and is available across many operating systems and hardware.</p>
-                  <p><b>Godot Site:</b> <a href="https://godotengine.org/">https://godotengine.org/</a></p>
-                </div>
-              </div>
-            </div>
-          
-            <div class="service-item">
-              <div class="service-item-content">
-                <i class="fa-solid fa-file icon-large" style="font-size: 128px;color: #478CBF;"></i>
-                  <div class ="service-item-text">
-                  <h4>GDScript</h4>
-                  <p>Godot's built in scripting language, GDScript allows for easy ------</p>
-                  <p>----------------------------------------------------------------------</p>
-                  <p><b>Godot Documentation:</b> <a href="https://docs.godotengine.org/en/stable/">https://docs.godotengine.org/en/stable/</a></p>
-                </div>
-              </div>
-            </div>
-          
-            <div class="service-item">
-              <div class="service-item-content">
-                <img src="assets/images/aseprite.png" alt="Aseprite", class = "godot-icon" />
-                <div class ="service-item-text">
-                  <h4>Aseprite</h4>
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-                  <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxx</p>
-                  <p><b>Aseprite Site:</b> <a href="https://www.aseprite.org/">https://www.aseprite.org/</a></p>
+                  <p>
+                    Our game proudly uses the free, open source game engine
+                    Godot. Godot is a free game engine that uses GDScript and
+                    C#.
+                  </p>
+                  <p>
+                    Godot is capable of 2D and 3D visuals and is available
+                    across many operating systems and hardware.
+                  </p>
+                  <p>
+                    <b>Godot Site:</b>
+                    <a href="https://godotengine.org/"
+                      >https://godotengine.org/</a
+                    >
+                  </p>
                 </div>
               </div>
             </div>
 
+            <div class="service-item">
+              <div class="service-item-content">
+                <i
+                  class="fa-solid fa-file icon-large"
+                  style="font-size: 128px; color: #478cbf"
+                ></i>
+                <div class="service-item-text">
+                  <h4>GDScript</h4>
+                  <p>
+                    Godot's built in scripting language, GDScript allows for
+                    easy ------
+                  </p>
+                  <p>
+                    ----------------------------------------------------------------------
+                  </p>
+                  <p>
+                    <b>Godot Documentation:</b>
+                    <a href="https://docs.godotengine.org/en/stable/"
+                      >https://docs.godotengine.org/en/stable/</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="service-item">
+              <div class="service-item-content">
+                <img
+                  src="assets/images/aseprite.png"
+                  alt="Aseprite"
+                  ,
+                  class="godot-icon"
+                />
+                <div class="service-item-text">
+                  <h4>Aseprite</h4>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxx
+                  </p>
+                  <p>
+                    <b>Aseprite Site:</b>
+                    <a href="https://www.aseprite.org/"
+                      >https://www.aseprite.org/</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  
+
+    <section class="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-sm-4 col-6">
+            <div class="item">
+              <a href="https://www.csun.edu/">
+                <img src="assets/images/CSUN-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <div class="item">
+              <a href="https://www.csun.edu/">
+                <img src="assets/images/CSUN-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <div class="item">
+              <a href="https://www.csun.edu/">
+                <img src="assets/images/CSUN-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <div class="item">
+              <a href="https://www.csun.edu/">
+                <img src="assets/images/CSUN-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <div class="item">
+              <a href="https://www.csun.edu/">
+                <img src="assets/images/CSUN-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-6">
+            <div class="item">
+              <a href="https://www.csun.edu/">
+                <img src="assets/images/CSUN-logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <p>
-                Copyright © California State University, Northridge
+              Copyright © California State University, Northridge
 
               <br />Designed by
               <a
@@ -183,9 +279,7 @@ https://templatemo.com/tm-574-mexant
                 target="_blank"
                 >TemplateMo</a
               >
-
             </p>
-        
           </div>
         </div>
       </div>
