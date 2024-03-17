@@ -126,12 +126,12 @@ body {
 }
 
 ::selection {
-  background: #ff511a;
+  background: #1ccc28;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff511a;
+  background: #1ccc28;
   color: #fff;
 }
 
@@ -171,7 +171,7 @@ body {
 .orange-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #7239f5;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -200,7 +200,7 @@ section {
 .section-heading h6 {
   font-size: 16px;
   text-transform: uppercase;
-  color: #ff511a;
+  color: #7239f5;
   font-weight: 700;
 }
 
@@ -353,12 +353,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ff511a;
+  color: #7239f5;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #ff511a;
+  color: #7239f5;
   opacity: 1;
 }
 
@@ -418,7 +418,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #ff511a!important;
+  color: #7239f5!important;
   padding-left: 25px;
 }
 
@@ -558,7 +558,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff511a;
+  color:#7239f5;
 }
 
 @media (max-width: 1200px) {
@@ -577,7 +577,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #ff511a!important;
+    color: #7239f5!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -639,7 +639,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #ff511a!important;
+    color: #7239f5!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -775,7 +775,7 @@ banner
 
 .slide-inner .header-text h2 em {
   font-style: normal;
-  color: #ff511a;
+  color: #7239f5;
 }
 
 .slide-inner .header-text .buttons {
@@ -1057,7 +1057,7 @@ section.calculator .section-heading h4 {
 #calculate button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color: #7239f5;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1155,7 +1155,7 @@ section.testimonials .section-heading {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #ff511a;
+  background-color: #7239f5;
 }
 
 
@@ -1602,7 +1602,7 @@ section.map .info-item a:hover {
 #contact button.orange-button {
   font-size: 14px;
   color: #fff;
-  background-color: #ff511a;
+  background-color:#7239f5;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
