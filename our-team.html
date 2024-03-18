@@ -19,6 +19,28 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
+<!-- Custom CSS -->
+<style>
+  .custom-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+  .custom-text-content {
+    flex: 1;
+    padding-right: 10px; /* Adjust spacing between text and image */
+  }
+  .custom-image {
+    flex-basis: 40%; /* Adjust image width */
+    text-align: center; /* Center image*/
+  }
+  .custom-image img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+
 <!--
 
 TemplateMo 574 Mexant
@@ -90,28 +112,61 @@ https://templatemo.com/tm-574-mexant
 
     
     <!-- Showcase Contributions Below -->
-    <section class="main-services">
-      <div class="container">
-        <!-- Content -->
-        <div class="service-item">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="left-image">
-                <img src="assets/images/contribution-image-01.jpg" alt="">
-              </div>
-            </div>
-            <div class="col-lg-6 align-self-center">
-              <div class="right-text-content">
-                <i class="fas fa-hand-holding-heart"></i>
-                <h4>Some Sample Header Goes Here</h4>
-                <p>This is where I can write some stuff that will show up below the header and will be changed soon but this is a sample for now as I get used to this lol. Also a picture is just a sample so I can get used to it.</p>
-              </div>
-            </div>
+  <section class="main-services">
+    <div class="container">
+      <!-- Start of Roles and Github Links --> 
+      <div class="custom-text-content" style="margin-top: -75px;">
+        <img
+          src="assets/images/slime.png"
+          class="slime-img"
+          style="width: 80px"
+          />
+          <h4><strong>Team Members and Roles</strong></h4>
+          <p></p>
+          <strong>Elizabeth Morgan</strong> - <a href="https://github.com/Quiet-XOF" target="_blank">Github</a> - <strong> Role: </strong> Project Lead, Artist, Dungeon Generation, Monster Code, General Coding, and Cleanup.<br>
+          <strong>Jesse Carrillo</strong> - <a href="https://github.com/JesseCarrilloCS" target="_blank">Github</a> - <strong> Role: </strong> Scrum Master, Enemy Design, and Environment Coder. <br>
+          <strong>Kobi Sherman</strong> - <a href="https://github.com/kobisherm" target="_blank">Github</a> - <strong> Role: </strong> Dungeon Generation Coder and Music/Sound. <br>
+          <strong>Ricardo Santana</strong> - <a href="https://github.com/rickkk09" target="_blank">Github</a> - <strong> Role: </strong> Menu, Camera control and Settings UI. <br>
+          <strong>Javier Galan Garcia</strong> - <a href="https://github.com/KillerSV13" target="_blank">Github</a> - <strong> Role: </strong> Concepts and Designs, Player Coder and Camera Coder. <br>
+          <strong>Jacqueline Padilla</strong> - <a href="https://github.com/jacqueline011" target="_blank">Github</a> - <strong> Role: </strong>Player Controls, Main Story and Dialogue. <br>
+          <strong>Christian Sanchez</strong> - <a href="https://github.com/Chris45623" target="_blank">Github</a> - <strong> Role: </strong> Inventory GUI, Pause/settings, Item pickup and General Coding. <br>
+
+
+          </p>
+        </div>
+      <!-- End of Roles and Github Links --> 
+
+      <!-- Skills Used Plus Title Demo gif --> 
+      <div class="custom-container"  style="margin-top: 60px;">
+        <div class="custom-text-content">
+          <img
+                      src="assets/images/slime.png"
+                      class="slime-img"
+                      style="width: 80px"
+                    />
+          <i class="fas fa-hand-holding-heart"></i>
+          <h4><strong>Skills Used in our Project</strong></h4>
+          <p>
+            This game was created with our teamwork and the wide range of skills our team brought to this project.
+             We started by looking into learning Godot 4, a whole new coding language, to build the core 
+             mechanics of the game. We created all the art assets you see, from the environments to the player 
+             and monsters. We even learned how to animate everything, bringing your character, enemies, and the
+              world itself to life. On top of that, we composed the music and sound effects to create an immersive
+               experience. We couldn't have done it all without our team's collaboration. We constantly helped 
+               each other out, shared our knowledge, and combined our unique talents to make this game something
+                we are proud of.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="assets/images/Main Menu Demo.gif" alt="" />
           </div>
         </div>
-        <!-- Add Sections If Needed-->
+        </div>
       </div>
-    </section>
+      <!-- END of Skills Used Plus Title Demo gif --> 
+    </div>
+  </section>
 
 
   
@@ -188,62 +243,10 @@ https://templatemo.com/tm-574-mexant
     </footer>
 
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/swiper.js"></script>
-    <script src="assets/js/custom.js"></script>
-
-    <script src="assets/js/photo-gallery.js"></script>
-    <script>
-      var interleaveOffset = 0.5;
-
-      var swiperOptions = {
-        loop: true,
-        speed: 1000,
-        grabCursor: true,
-        watchSlidesProgress: true,
-        mousewheelControl: true,
-        keyboardControl: true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        on: {
-          progress: function () {
-            var swiper = this;
-            for (var i = 0; i < swiper.slides.length; i++) {
-              var slideProgress = swiper.slides[i].progress;
-              var innerOffset = swiper.width * interleaveOffset;
-              var innerTranslate = slideProgress * innerOffset;
-              swiper.slides[i].querySelector(".slide-inner").style.transform =
-                "translate3d(" + innerTranslate + "px, 0, 0)";
-            }
-          },
-          touchStart: function () {
-            var swiper = this;
-            for (var i = 0; i < swiper.slides.length; i++) {
-              swiper.slides[i].style.transition = "";
-            }
-          },
-          setTransition: function (speed) {
-            var swiper = this;
-            for (var i = 0; i < swiper.slides.length; i++) {
-              swiper.slides[i].style.transition = speed + "ms";
-              swiper.slides[i].querySelector(".slide-inner").style.transition =
-                speed + "ms";
-            }
-          },
-        },
-      };
-
-      var swiper = new Swiper(".swiper-container", swiperOptions);
-    </script>
-  </body>
+   <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Other scripts if needed -->
+</body>
 </html>
