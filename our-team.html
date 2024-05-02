@@ -46,6 +46,33 @@
     max-width: 100%;
     height: auto;
   }
+
+  .member-icon {
+  width: 130px;
+  height: 50px;
+  margin-right: 5px; 
+  cursor: pointer; 
+  }
+
+  .linkedin-icon {
+  width: 110px;
+  height: 30px;
+  margin-right: 5px; 
+  cursor: pointer; 
+  }
+      
+  .member-icon:hover {
+  opacity: 0.8; 
+  transform: scale(1.1); 
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out; 
+  }
+
+  .linkedin-icon:hover {
+  opacity: 0.8; 
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out; 
+  }
+
 </style>
 
 
@@ -124,37 +151,49 @@ https://templatemo.com/tm-574-mexant
     <!-- Showcase Contributions Below -->
   <section class="main-services">
     <div class="container">
-      <!-- Start of Roles and Github Links --> 
-      <style>
-        .member-icon {
-          width: 130px;
-          height: 50px;
-          margin-right: 5px; 
-          cursor: pointer; 
-        }
-
-        .linkedin-icon {
-          width: 110px;
-          height: 30px;
-          margin-right: 5px; 
-          cursor: pointer; 
-        }
       
-        .member-icon:hover {
-          opacity: 0.8; 
-          transform: scale(1.1); 
-          transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out; 
-        }
-
-        .linkedin-icon:hover {
-          opacity: 0.8; 
-          transform: scale(1.1);
-          transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out; 
-        }
-      </style>
+      <!-- Start of Roles and Github Links --> 
       
       <div class="custom-text-content">
-        <h4>Team Members and Roles</h4>
+
+        <!-- Skills Used Plus Title Demo gif --> 
+      <div class="custom-container"  style="margin-top: -100px;">
+        <div class="custom-text-content">
+          <img
+                      src="assets/images/slime.png"
+                      class="slime-img"
+                      style="width: 80px"
+                    />
+          <i class="fas fa-hand-holding-heart"></i>
+          <h4><strong>Skills Used in our Project</strong></h4>
+          <p>
+            This game was created with our teamwork and the wide range of skills our team brought to this project.
+             We started by looking into learning Godot 4, a whole new coding language, to build the core 
+             mechanics of the game. We created all the art assets you see, from the environments to the player 
+             and monsters. We even learned how to animate everything, bringing your character, enemies, and the
+              world itself to life. On top of that, we composed the music and sound effects to create an immersive
+               experience. We couldn't have done it all without our team's collaboration. We constantly helped 
+               each other out, shared our knowledge, and combined our unique talents to make this game something
+                we are proud of.
+          </p> <br>
+          <ul>
+            <li><strong>Game Design:</strong> We focused on gameplay mechanics, ensuring the game is fun and rewarding to play repeatedly.</li> <br>
+            <li><strong>UI Design:</strong> We created a user interface that is clear to understand and have the main focus on the gameplay.</li> <br>
+            <li><strong>Problem Solving:</strong> We encountered many technical issues and problems along the way, but our team's problem-solving skills kept us moving forward.</li> <br>
+            <li><strong>Testing:</strong> We constantly test the game to make sure we get rid of any unwanted bugs and issues.</li> <br>
+            <li><strong>Time Management:</strong> We all had multiple tasks, met deadlines, and ensured all parts of the game came together seamlessly.</li> <br>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="assets/images/Main Menu Demo.gif" alt="" />
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- END of Skills Used Plus Title Demo gif --> 
+
+        <h4><strong>Team Members and Roles</strong></h4>
       
         <div class="member-section">
           <img src="assets/images/slime.png" class="slime-img" style="width: 80px" alt="Slime Mascot" />
@@ -212,7 +251,7 @@ https://templatemo.com/tm-574-mexant
 
 </a> <h5>Christian Sanchez</h5>
 <p>
-  <strong>Role:</strong> Inventory GUI, Pause/settings, Item pickup and General Coding, and Enemy AI.
+  <strong>Role:</strong> Inventory/Companion GUI, Pause settings, Item pickup, General Coding, and Enemy AI.
 </p>
 <a href="https://github.com/Chris45623" target="_blank">
   <img src="assets/images/github-icon.png" class="member-icon" alt="GitHub Icon" />
@@ -223,42 +262,7 @@ https://templatemo.com/tm-574-mexant
         </div>
       <!-- End of Roles and Github Links --> 
 
-      <!-- Skills Used Plus Title Demo gif --> 
-      <div class="custom-container"  style="margin-top: 60px;">
-        <div class="custom-text-content">
-          <img
-                      src="assets/images/slime.png"
-                      class="slime-img"
-                      style="width: 80px"
-                    />
-          <i class="fas fa-hand-holding-heart"></i>
-          <h4><strong>Skills Used in our Project</strong></h4>
-          <p>
-            This game was created with our teamwork and the wide range of skills our team brought to this project.
-             We started by looking into learning Godot 4, a whole new coding language, to build the core 
-             mechanics of the game. We created all the art assets you see, from the environments to the player 
-             and monsters. We even learned how to animate everything, bringing your character, enemies, and the
-              world itself to life. On top of that, we composed the music and sound effects to create an immersive
-               experience. We couldn't have done it all without our team's collaboration. We constantly helped 
-               each other out, shared our knowledge, and combined our unique talents to make this game something
-                we are proud of.
-          </p> <br>
-          <ul>
-            <li><strong>Game Design:</strong> We focused on gameplay mechanics, ensuring the game is fun and rewarding to play repeatedly.</li> <br>
-            <li><strong>UI Design:</strong> We created a user interface that is clear to understand and have the main focus on the gameplay.</li> <br>
-            <li><strong>Problem Solving:</strong> We encountered many technical issues and problems along the way, but our team's problem-solving skills kept us moving forward.</li> <br>
-            <li><strong>Testing:</strong> We constantly test the game to make sure we get rid of any unwanted bugs and issues.</li> <br>
-            <li><strong>Time Management:</strong> We all had multiple tasks, met deadlines, and ensured all parts of the game came together seamlessly.</li> <br>
-          </ul>
-        </div>
-        <div class="col-lg-6">
-          <div class="right-image">
-            <img src="assets/images/Main Menu Demo.gif" alt="" />
-          </div>
-        </div>
-        </div>
-      </div>
-      <!-- END of Skills Used Plus Title Demo gif --> 
+      
     </div>
   </section>
 
